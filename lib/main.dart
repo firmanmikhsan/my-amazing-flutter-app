@@ -15,9 +15,6 @@ class MyApp extends StatelessWidget {
         body: Center(
             child: Container(
               child: Text("Saya belajar flutter di mobile programming 2",
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.white,
                 fontStyle: FontStyle.italic,
