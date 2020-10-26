@@ -12,7 +12,23 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Aplikasi StatelessWidget Hello World"),
         ),
-        body: Center(child: Text("Hello World")),
+        body: Center(
+            child: Container(
+              child: Text("Saya belajar flutter di mobile programming 2",
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Colors.white,
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.w700,
+                fontSize: 20
+              ),
+          ),
+          color: Colors.lightBlue,
+          width: 300,
+          height: 150,
+        )),
       ),
     );
   }
